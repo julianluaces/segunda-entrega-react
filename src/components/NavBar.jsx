@@ -1,25 +1,8 @@
-import CartWidget from './CartWidget'
-
+import React from 'react'
 
 const NavBar = () => {
-
   return (
-    <nav>
-
-      <div className='nav-bar'>
-
-
-   
-          <h3>Seba's </h3>
-        
-        
-
-        <CartWidget />
-
-      </div>
-
-
-    </nav>
+    <div>NavBar</div>
   )
 }
 

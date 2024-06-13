@@ -2,9 +2,9 @@ const products = [
 
     {
         id: '1',
-        name: 'Brownie clásico',
+        name: 'Brownie clásico de chocolate semi amargo',
         price: 40,
-        category: 'tortas-dulces',
+        category: 'brownies',
         img: './src/img/brownie.jpg',
         stock: 10,
         description: 'descripcion de producto'
@@ -13,9 +13,9 @@ const products = [
 
     {
         id: '2',
-        name: 'Cookies con chocolate',
+        name: 'Cookies con chips de chocolate',
         price: 35,
-        category: 'tortas-dulces',
+        category: 'cookies',
         img: './src/img/cookies.jpg',
         stock: 10,
         description: 'descripcion de producto'
@@ -24,9 +24,9 @@ const products = [
 
     {
         id: '3',
-        name: 'Torta de Chocolate',
+        name: 'Torta de chocolate, con crema y frutos rojos',
         price: 30,
-        category: 'tortas-dulces',
+        category: 'tortas',
         img: './src/img/tortachocolate.jpg',
         stock: 10,
         description: 'descripcion de producto'

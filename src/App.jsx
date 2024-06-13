@@ -2,7 +2,8 @@
 import './App.css';
 import NavBar from './components/NavBar';
 import ItemListContainer from './components/ItemListContainer';
-import { ChakraProvider } from '@chakra-ui/react';
+import ItemDetailContainer from './components/ItemDetailContainer';
+
 
 
 function App() {
@@ -12,17 +13,13 @@ function App() {
 
     <div className="App">
 
-<ChakraProvider/>
-      
 
       <NavBar />
 
       <ItemListContainer greeting={'Experiencia de sabores'} />
+      <ItemDetailContainer/>
 
   
-
- <ChakraProvider/>
-
     </div>
 
 
