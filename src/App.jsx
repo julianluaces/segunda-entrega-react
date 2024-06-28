@@ -3,6 +3,8 @@ import './App.css';
 import NavBar from './components/NavBar';
 import ItemListContainer from './components/ItemListContainer';
 import ItemDetailContainer from './components/ItemDetailContainer';
+import Footer from './components/Footer';
+import Home from './components/Home';
 
 
 
@@ -15,11 +17,16 @@ function App() {
 
 
       <NavBar />
+      <Home />
+      <ItemListContainer className='item-list' greeting={'Bienvenidos'} />
 
-      <ItemListContainer greeting={'Experiencia de sabores'} />
-      <ItemDetailContainer/>
+      <ItemDetailContainer />
 
-  
+
+
+
+      <Footer />
+
     </div>
 
 

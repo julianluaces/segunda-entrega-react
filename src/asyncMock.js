@@ -24,7 +24,7 @@ const products = [
 
     {
         id: '3',
-        name: 'Torta de chocolate, con crema y frutos rojos',
+        name: 'Torta de chocolate crema y frutos rojos',
         price: 30,
         category: 'tortas',
         img: './src/img/tortachocolate.jpg',
