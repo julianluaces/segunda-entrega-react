@@ -1,6 +1,10 @@
 body {
+  display: flex;
+  flex-direction: column;
   background-color: #5aa88d;
   padding: 2rem;
+
+  justify-content: center;
 }
 
 .item-count {
@@ -13,7 +17,8 @@ body {
 
 img {
   
-  max-width: 400px;
+  display: flex;
+  width: 100vh;
   border-radius: 1rem ;
   
 }
@@ -93,37 +98,16 @@ button:hover {
 }
 
 
-.app-bar {
 
-  background-color: #3c7964;
+.imghome {
+
  
-}
-
-
-
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 10px;
   padding: 1rem;
+
 }
 
-.grid-item {
-  position: relative;
-}
 
-.grid-item img {
-  width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  transition: transform 0.2s;
-}
 
-.grid-item img:hover {
-  transform: scale(1.05);
-}
 
 .footer {
   display: flex;
@@ -142,4 +126,13 @@ button:hover {
   margin: 1rem;
   gap: 1rem;
 
+}
+
+
+
+.link { 
+
+  padding: 0.5rem;
+  text-decoration: none;
+  
 }
